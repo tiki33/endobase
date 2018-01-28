@@ -66,8 +66,8 @@ print ( tfs.split())
 
 
 # s  surname only
-s = ( ANAESTHETISTS.get ( v )).split(' ', 2)
+s = ( ANAESTHETISTS.get ( v )).split()
 
 # use this value in endobase_start.py line 50
-anaesthetist = s[2]
+anaesthetist = s[-1]
 print (anaesthetist)
